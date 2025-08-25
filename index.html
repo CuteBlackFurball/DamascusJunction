@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Damascus Junction</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0b1d51; color: white; text-align: center; margin: 0; }
+    h1 { margin: 20px; }
+    #board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; width: 90%; margin: 0 auto; }
+    .cell { background: #123; padding: 20px; font-size: 18px; cursor: pointer; border-radius: 8px; }
+    .cell.used { background: #444; cursor: not-allowed; }
+    #questionModal { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.9); display:none; justify-content:center; align-items:center; }
+    #questionBox { background:#222; padding:20px; border-radius:10px; max-width:600px; width:90%; }
+    button { padding:10px 20px; margin:5px; font-size:16px; }
+  </style>
+</head>
+<body>
+  <h1>Damascus Junction</h1>
+  <div id="board"></div>
+
+  <div id="questionModal">
+    <div id="questionBox">
+      <h2 id="qCategory"></h2>
+      <p id="qText"></p>
+      <button onclick="showAnswer()">Show Answer</button>
+      <p id="qAnswer" style="display:none;"></p>
+      <br>
+      <button onclick="closeQuestion()">Close</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script>
+    let questions = [];
+    let boardData = [];
+
+    function loadCSV() {
+      Papa.parse("questions.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+          questions = results.data.filter(q => q.category && q.value && q.question && q.answer);
+          buildBoard();
+        }
+      });
+    }
+
+    function buildBoard() {
+      const board = document.getElementById('board');
+      board.innerHTML = "";
+      const categories = [...new Set(questions.map(q => q.category))];
+      const values = [...new Set(questions.map(q => q.value))].sort((a,b)=>a-b);
+      boardData = [];
+      
+      categories.forEach(cat => {
+        values.forEach(val => {
+          const qList = questions.filter(q => q.category === cat && q.value === val);
+          if (qList.length > 0) {
+            const randQ = qList[Math.floor(Math.random()*qList.length)];
+            boardData.push(randQ);
+            const cell = document.createElement('div');
+            cell.className = 'cell';
+            cell.innerText = cat + " $" + val;
+            cell.onclick = ()=>openQuestion(randQ, cell);
+            board.appendChild(cell);
+          }
+        });
+      });
+    }
+
+    function openQuestion(q, cell) {
+      if (cell.classList.contains("used")) return;
+      cell.classList.add("used");
+      document.getElementById("qCategory").innerText = q.category + " $" + q.value;
+      document.getElementById("qText").innerText = q.question;
+      document.getElementById("qAnswer").innerText = "Answer: " + q.answer;
+      document.getElementById("qAnswer").style.display = "none";
+      document.getElementById("questionModal").style.display = "flex";
+    }
+
+    function showAnswer() {
+      document.getElementById("qAnswer").style.display = "block";
+    }
+
+    function closeQuestion() {
+      document.getElementById("questionModal").style.display = "none";
+    }
+
+    window.onload = loadCSV;
+  </script>
+</body>
+</html>
