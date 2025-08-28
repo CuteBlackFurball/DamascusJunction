@@ -2,7 +2,7 @@ category,value,question,answer
 Qur'an,100,What is the first revealed Surah?,Surah Al-‘Alaq
 Qur'an,200,Which Surah is known as the 'Heart of the Qur'an'?,Surah Yasin
 Qur'an,300,In which language was the Qur'an revealed?,Arabic
-Qur'an,400,In which language was the Qur'an revealed?,Arabic
+Qur'an,400,Which book was given to the Prophet Isa (AS)?,Injil
 Qur'an,100,What is the first revealed Surah?,Surah Al-‘Alaq
 Qur'an,200,Which Surah is known as the 'Heart of the Qur'an'?,Surah Yasin
 Qur'an,300,Which battle was the first in Islam?,Battle of Badr
@@ -11,6 +11,14 @@ Hadith,100,Who said: Actions are judged by intentions?,Prophet Muhammad (ﷺ)
 Hadith,200,Which book is considered the most authentic Hadith collection?,Sahih al-Bukhari
 Hadith,300,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
 Hadith,400,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
+Hadith,100,Who said: Actions are judged by intentions?,Prophet Muhammad (ﷺ)
+Hadith,200,Which book is considered the most authentic Hadith collection?,Sahih al-Bukhari
+Hadith,300,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
+Hadith,400,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
+History,100,In which city was the Prophet Muhammad (ﷺ) born?,Makkah
+History,200,Which battle was the first in Islam?,Battle of Badr
+History,300,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
+History,400,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
 History,100,In which city was the Prophet Muhammad (ﷺ) born?,Makkah
 History,200,Which battle was the first in Islam?,Battle of Badr
 History,300,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
