@@ -55,13 +55,13 @@
       
       categories.forEach(cat => {
         values.forEach(val => {
-          const qList = questions.filter(q => q.category === cat && " " && q.value === val);
+          const qList = questions.filter(q => q.category === cat && q.value === val);
           if (qList.length > 0) {
             const randQ = qList[Math.floor(Math.random()*qList.length)];
             boardData.push(randQ);
             const cell = document.createElement('div');
             cell.className = 'cell';
-            cell.innerText = cat + val;
+            cell.innerText = cat + "  " + val;
             cell.onclick = ()=>openQuestion(randQ, cell);
             board.appendChild(cell);
           }
