@@ -72,7 +72,7 @@
     function openQuestion(q, cell) {
       if (cell.classList.contains("used")) return;
       cell.classList.add("used");
-      document.getElementById("qCategory").innerText = q.category + q.value;
+      document.getElementById("qCategory").innerText = q.category + " " + q.value;
       document.getElementById("qText").innerText = q.question;
       document.getElementById("qAnswer").innerText = "Answer: " + q.answer;
       document.getElementById("qAnswer").style.display = "none";
