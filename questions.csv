@@ -1,25 +1,83 @@
 category,value,question,answer
-Qur'an,100,What is the first revealed Surah?,Surah Al-â€˜Alaq
-Qur'an,200,Which Surah is known as the 'Heart of the Qur'an'?,Surah Yasin
-Qur'an,300,In which language was the Qur'an revealed?,Arabic
+Qur'an,100,In which language was the Qur'an revealed?,Arabic
+Qur'an,200,What is the first revealed Surah?,Surah Al-Alaq
+Qur'an,300,Which Surah is known as the 'Heart of the Qur'an'?,Surah Yasin
 Qur'an,400,Which book was given to the Prophet Isa (AS)?,Injil
 Qur'an,100,Into how many part or j'uz is the Qur'an divided?,30
 Qur'an,200,When the first revalation came to Prophet Muhamad (SAW) how old was he?,40 years old
 Qur'an,300,What is Zaqqum in the Quran?,A tree in Jahannam
-Qur'an,400,Which caliph collected the Qur'an in the form single book?,Abu Bakr Siddiq (RA)
-Hadith,100,Who said: Actions are judged by intentions?,Prophet Muhammad (ï·º)
-Hadith,200,Which book is considered the most authentic Hadith collection?,Sahih al-Bukhari
-Hadith,300,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
-Hadith,400,What is the name of the actions Prophet Muhammad (SAW) did that we should too?,Sunnah
-Hadith,100,Who said: Actions are judged by intentions?,Prophet Muhammad (ï·º)
-Hadith,200,Which book is considered the most authentic Hadith collection?,Sahih al-Bukhari
-Hadith,300,Who narrated the most Hadith,Abu Hurara 
-Hadith,400,What is the Hadith called that records the Prophet's sayings?,Hadith Qudsi
-History,100,In which city was the Prophet Muhammad (ï·º) born?,Makkah
-History,200,Which battle was the first in Islam?,Battle of Badr
+Qur'an,400,Which caliph collected the Qur'an in the form single book?,Uthman ibn Affan (RA)
+Qur'an,100,Which surah addressed King Abraha?,Surat-al-Fil
+Qur'an,200,Which angel will blow the trumpet on Judgment day?,Israfil
+Qur'an,300,Who did Allah SWT cause to die for a 100 years and then raised him back?,Prophet Uzayr
+Qur'an,400,How many surahs are named after prophets?,6
+Qur'an,100,What surah is considered a third of the Quran?,Surat-al-Ikhlas
+Qur'an,200,Which verse protects the person who recites it before bed?,Ayat al Kursi
+Qur'an,300,How many angels will hold Allah(SWT)'s throne?,8
+Qur'an,400,"In Arabic, what is the name of the longest verse in the Quran?",Ayat-al-Dain
+Qur'an,100,Name the last surah of the Quran,Surat-al-Nas
+Qur'an,200,Whch surah was revealed shortly before the Prophet's (SAW) death?,Surah An-Nasr
+Qur'an,300,Which book was given to the Prophet Dawood (AS)?,Zaboor
+Qur'an,400,How many ayaat of sajda are in the Quran?,15
+History,100,Who was the first Khalifa in Islam?,Abu Bakr RA
+History,200,Who were Habil and Qabil?,Sons of Adam (AS)
 History,300,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
-History,400,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
-History,100,In which city was the Prophet Muhammad (ï·º) born?,Makkah
-History,200,Which battle was the first in Islam?,Battle of Badr
-History,300,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
-History,400,Which Caliph was known as Al-Faruq?,Umar ibn al-Khattab (RA)
+History,400,Who was the queen of Sheba?,Bilqis
+History,100,Who founded the Ayyubid Empire?,Salahadeen Ayyubi
+History,200,Who was the third Khalifa?,Uthman ibn Affan (RA)
+History,300,List the order of the Khulafa-ar-rashedeen?,"Abu Bakr, Umar, Uthman, Ali"
+History,400,Who is the richest man in the world?,Mansa Musa
+History,100,Who was the first muezzin in Islam,Bilal ibn Rabah (RA)
+History,200,Who were yajuj and majuj?,2 tribes
+History,300,Which companion was known as “The Sword of Allah”?,Khalid ibn al-Walid (RA)
+History,400,Who was the main scribe of revelation?,Zayd ibn Thabit (RA)
+History,100,Which woman was the first to accept Islam?,Khadijah (RA)
+History,200,Who is al-Khidr?,Wise man
+History,300,"Which wife of the Prophet (SAW) narrated more than 2,000 hadiths?",Aisha (RA)
+History,400,How many tribes were the children of Israel split into?,12
+History,100,Whose descendents are Bani Israel?,Yaqub (AS)
+History,200,Who was the last of the Rightly Guided Caliphs?,Ali ibn Abi Talib (RA)
+History,300,Who was the Prophet’s uncle that protected him but did not accept Islam?,Abu Talib
+History,400,Which tribe cut out rocks in the valley?,Thamud
+Seerah,100,What is the name of the year that the Prophet Muhammad (SAW) was born in?,Year of Elephant
+Seerah,200,Which companion will be allowed to enter from any gates he wishes?,Abu Bakr (RA)
+Seerah,300,Who was the first person to believe in the miraj?,Abu Bakr (RA)
+Seerah,400,"In arabic, what is the name of the year Khadijah (RA) and Abu Talib passed away?",Am-ul-huzn
+Seerah,100,In which city was the Prophet Muhammad (SAW) born?,Makkah
+Seerah,200,Which battle was the first in Islam?,Battle of Badr
+Seerah,300,Who was the Prophet's adopted son?,Zayd ibn Harithah (RA)
+Seerah,400,What year was the Prophet Muhammad (SAW) born?,570 AD
+Seerah,100,What was the Prophet’s occupation before Prophethood?,Merchant
+Seerah,200,Which event marks the beginning of the Islamic Calender?,Hijrah
+Seerah,300,Which companion is mentioned by name in the Quran?,Zayd ibn Harithah (RA)
+Seerah,400,What was the name of the monk who recognized that Muhhamad (SAW) would be a prophet? ,Bahira
+Seerah,100,Who did Fatima (AS) marry?,Ali ibn Abi Talib (RA)
+Seerah,200,Who is buried next to the Prophet (SAW)?,Abu Bakr (RA)
+Seerah,300,What is the first mosque made in Islamic history?,Masjid Quba
+Seerah,400,In which year of Hijrah was the Treaty of Hudaybiyyah signed?,6 AH
+Seerah,100,How old was the Prophet (SAW) when his father passed away?,He wasn't born yet
+Seerah,200,In which battle did the archers disobey the Prophet?,Uhud
+Seerah,300,Where did the Prophet Muhammad (SAW) and Abu Bakr (RA) hide during the Hijrah?,Cave of Thawr
+Seerah,400,For how many days did the Prophet Muhammad (SAW) stay in the cave before migrating?,3 Days
+General,100,Which country is the largest in the world by land area?,Russia
+General,200,Mount Everest lies on the border of Nepal and which other country?,China
+General,300,What is the longest river in the world?,Nile
+General,400,Which country is the only one that borders both the Atlantic and Indian Oceans?,South Africa
+General,100,At what temperature in Celsius does water boil at sea level?,100 degrees celcius
+General,200,The chemical symbol “O” represents which element?,Oxygen
+General,300,Which planet is known as the “Red Planet”?,Mars
+General,400,Which element makes up about 78% of Earth’s atmosphere?,Nitrogen
+General,100,Which sport is often referred to as “the beautiful game”?,Soccer/Football
+General,200,What is the name of Japan’s currency?,Yen
+General,300,Which Shakespeare play tells the story of two star-crossed lovers from feuding families?,Romeo And Juliet
+General,400,Which ancient wonder of the world was located in Babylon?,Hanging Gardens of Babylon
+General,100,What is the name of the alphabet used in Russia?,Crylic Alphabet
+General,200,Who is the author of the Harry Potter series?,J.K. Rowling
+General,300,The word “bonjour” means “hello” in which language?,French
+General,400,Which Shakespeare play features the characters Rosencrantz and Guildenstern?,Hamlet
+General,100,"In basketball, how many points are awarded for a free throw?",1
+General,200,The Olympic Games originated in which country?,Greece
+General,300,"In chess, which piece is the only one that can jump over others?",Bishop
+General,400,"In bowling, what term is used for three strikes in a row?",Turkey
+,,,
+,,,
